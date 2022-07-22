@@ -55,3 +55,47 @@ header {
   margin-left: 30px;
   
 }
+nav {
+  width: 100%;
+  height: 73px;
+  
+}
+.nav-contaent {
+ 
+ max-width: 1035px;
+ margin: auto;
+ margin-top: 10px;
+ 
+ 
+}
+.nav-contaent ul {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.nav-contaent ul li {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.nav-contaent .active{
+  border: 3px solid #3f81be;
+  padding: 10px;
+  border-radius: 141px;
+  width: 94px;
+  height: 32px;
+}
+.nav-contaent ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav-contaent .active:hover{
+  color: #fff;
+  background-color: #3f81be;
+  transition: 0.5s;
+}
