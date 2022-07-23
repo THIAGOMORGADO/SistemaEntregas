@@ -9,6 +9,7 @@
   <title>Site - Entrega</title>
 </head>
 <body>
+  <!-- Header Complete -->
   <header>
     <div class="content">
       <div class="logo">
@@ -29,19 +30,35 @@
       </div>
     </div>
   </header>
-
+<!--Nav Complete-->
   <nav>
     <div class="nav-contaent">
       <ul>
-        <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="#">Promoçoes</a></li>
+        <li class="active" id="active">
+          <a href="#" onclick="active()">Inicio</a>
+        </li>
+        <li><a href="assets/page/carrinho.html" onclick="active()">Promoçoes</a></li>
         <li><a href="#">Cardapios</a></li>
         <li><a href="#">Peça online</a></li>
         <li><a href="#">Acompanhe seu pedido</a></li>
       </ul>
     </div>
   </nav>
+  <!-- Section -->
+  <main>
+    <section class="entregas">
+      <div class="entrega">
+        <a href="#">Entregar</a>
+      </div>
+      
+      <div class="retira">
+        <a href="#">Retirar em loja</a>
+      </div>
+      
+    </section>
+  </main>
 
 
+  <script src="/assets/js/script.js"></script>
 </body>
 </html>
