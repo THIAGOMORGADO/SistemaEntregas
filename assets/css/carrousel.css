@@ -1,0 +1,32 @@
+.container {
+  width: 50%;
+  margin-top: 20px;
+}
+.col-6 img{
+  width: 480px;
+  height: 280px;
+  border-radius: 30px;
+  background-color: red;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.item01 {
+  width: 480px;
+  height: 280px;
+}
+.col-2 img {
+  width: 280px;
+  height: 170px;
+  border-radius: 30px;
+  background-color: red;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.item02{
+  width: 280px;
+  height: 170px;
+}
+.img-info img{
+  width: 480px;
+  height: 170px;
+}

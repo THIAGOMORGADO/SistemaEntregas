@@ -165,14 +165,3 @@ section {
   display: flex;
   flex-direction: row;
 }
-.items1 {
-  width: 477px;
-  background-color: red;
-  border: 1px solid #000;
-  float: left;
-}
-.items2 {
-  width: 477px;
-  background-color: red;
-  border: 1px solid #000;
-}
