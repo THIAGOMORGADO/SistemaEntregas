@@ -212,6 +212,7 @@ footer {
   width: 100%;
   border-radius: 50px 50px 0 0; 
   justify-content: space-between;
+  
 }
 .footer-contaent {
   width: 100%;
@@ -221,6 +222,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
   
 }
  .logo-footer {
@@ -241,9 +243,43 @@ footer {
   color: #000;
 }
 .social {
-  background-color: red;
+  margin-right: 10px;
+ 
+}
+.social p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Allerta', sans-serif;
+}
+.social img {
+  margin-left: 10px;
   margin-right: 10px;
 }
 .pay {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   background-color: red;
+}
+.pay p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Allerta', sans-serif;
+}
+.pay img {
+  width: 33px;
+  display: flex;
+  background-color: #0500FF;
+  
+  justify-content: center;
+
+  margin-left: 10px;
+  margin-right: 10px;
 }
